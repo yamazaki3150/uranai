@@ -60,6 +60,7 @@ function showResult() {
 
   if (userName === '') {
     resultArea.innerText = '名前を入力してください！';
+    resultArea.classList.add('show');
     return;
   }
 
@@ -93,6 +94,8 @@ function showResult() {
   resultArea.appendChild(messageText);
   resultArea.appendChild(colorText);
   resultArea.appendChild(itemText);
+
+  resultArea.classList.add('show');
 }
 
 assessmentButton.addEventListener('click', showResult);
