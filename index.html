@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>今日のあなたの運勢診断</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
-  <div class="container">
+  <main class="container">
     <div class="moon">☾</div>
 
     <h1>今日の運勢診断</h1>
@@ -17,20 +17,22 @@
 
     <div class="stars">★　✦　★　✧　★</div>
 
-    <p>あなたの名前を入力してください</p>
+    <p class="question">あなたの名前を入力してください</p>
 
-    <input type="text" id="user-name"
-      maxlength="20" placeholder="例：たろう">
+    <input
+      type="text"
+      id="user-name"
+      maxlength="20"
+      placeholder="例：たろう"
+    >
 
     <button id="assessment">運勢を占う ✨</button>
 
-    <div id="result-area"></div>
+    <div id="result-area" aria-live="polite"></div>
 
-    <p class="footer">
-      今日も素敵な1日になりますように 🌙
-    </p>
-  </div>
+    <p class="footer">今日も素敵な1日になりますように 🌙</p>
+  </main>
 
-  <script src="script.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>
