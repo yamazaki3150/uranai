@@ -7,33 +7,33 @@ const resultArea = document.getElementById('result-area');
 
 const fortunes = [
   {
-    name: '大吉 🌟',
+    name: '大吉 ',
     message: '今日は最高の1日！新しいことに挑戦してみよう！'
   },
   {
-    name: '中吉 🌸',
+    name: '中吉 ',
     message: '落ち着いて行動すると良いことがありそう！'
   },
   {
-    name: '小吉 🍀',
+    name: '小吉 ',
     message: '小さな幸せが見つかる日になりそう！'
   },
   {
-    name: '吉 ☀️',
+    name: '吉 ',
     message: 'いつも通り過ごすことで良い結果につながりそう！'
   },
   {
-    name: '末吉 🌙',
+    name: '末吉 ',
     message: '焦らずゆっくり進んでみよう！'
   },
   {
-    name: '超大吉 💖',
+    name: 'スーパー大吉 ',
     message: 'ラッキーな出来事が起こる予感！'
   }
 ];
 
 const colors = [
-  'ピンク 🌷',
+  'ピンク 🩷',
   '水色 🩵',
   '紫 💜',
   '黄色 💛',
@@ -42,11 +42,11 @@ const colors = [
 ];
 
 const items = [
-  'お気に入りのペン',
-  'スマートフォン',
+  'めがね',
+  '一万円札',
   'ハンカチ',
   '腕時計',
-  'お気に入りの本',
+  '水',
   'イヤホン'
 ];
 
