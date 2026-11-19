@@ -1,0 +1,85 @@
+
+body {
+  background: linear-gradient(135deg, #b9a3e3, #f2c6df);
+  color: #514267;
+  font-family: sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  width: 400px;
+  max-width: 85%;
+  padding: 35px 25px;
+  border-radius: 25px;
+  box-shadow: 0 8px 25px rgba(70, 40, 100, 0.2);
+}
+
+.moon {
+  font-size: 55px;
+  color: #a68bd4;
+}
+
+h1 {
+  color: #8565b5;
+  font-size: 28px;
+}
+
+.subtitle {
+  color: #a17ebc;
+}
+
+.stars {
+  color: #e9b84c;
+  font-size: 22px;
+  margin: 20px;
+}
+
+input {
+  width: 80%;
+  padding: 12px;
+  border: 2px solid #d6c3ed;
+  border-radius: 20px;
+  outline: none;
+  font-size: 15px;
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 30px;
+  background-color: #a68bd4;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #8565b5;
+}
+
+#result-area {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #f8f1ff;
+  border-radius: 15px;
+  line-height: 1.8;
+}
+
+#result-area h2 {
+  color: #8565b5;
+}
+
+.footer {
+  color: #a17ebc;
+  font-size: 12px;
+  margin-top: 25px;
+}
